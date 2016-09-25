@@ -1,0 +1,8 @@
+
+
+For this project, I created an organization in GitHub and added some members to it. I then check if those members have a name or not. If not, then I send them an email with a link to the GitHub profile page. To do this, I created a profile in mailgun and used their API to send over the emails. You need to have an approved account on Mailgun in order to receive mail from this. I have not put in my real API keys for either mail gun or Amazon S3, so if you would like to try to run the code, you can ask me more about it, or create your application credentials for these. 
+
+
+After this is done, I used boto to send up the Login name of those users without a name in their profile to the S3 bucket. I wasn't sure exactly how you wanted this to be formatted, so I just sent up a string of the login name of that user without an email. Then, on S3, you can download these files separately with the login names. I wasn't sure exactly what information you wanted in the bucket, so I just put their login name. However, I would have been able to put everything about that person from their GitHub profile into the S3 bucket, I was unsure of exactly what to put there. 
+
+ 
