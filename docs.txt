@@ -5,7 +5,7 @@ For this project, I created an organization in GitHub and added some members to 
 
 After this is done, I used boto to send up the Login name of those users without a name in their profile to the S3 bucket. I wasn't sure exactly how you wanted this to be formatted, so I just sent up a string of the login name of that user without an email. Then, on S3, you can download these files separately with the login names. I wasn't sure exactly what information you wanted in the bucket, so I just put their login name. However, I would have been able to put everything about that person from their GitHub profile into the S3 bucket, I was unsure of exactly what to put there. 
 
-I realize my code may be a little stringy. I didn't have a lot of time to go back and refactor, and create more proper functions. However, it should be working. If you have any questions about it, please reach out to me. 
+I realize my code may be a little stringy. I didn't have a lot of time to go back and refactor, and create proper functions. However, it should be working. If you have any questions about it, please reach out to me. 
 
 Bruce
 
